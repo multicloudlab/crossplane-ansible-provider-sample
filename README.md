@@ -1,0 +1,1 @@
+# crossplane-ansible-provider-sample
