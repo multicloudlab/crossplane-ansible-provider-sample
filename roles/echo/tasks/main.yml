@@ -1,0 +1,6 @@
+---
+- name: task echo with parameter
+  shell: echo ' echo with a a parameter =>`{{ parameter }}`'
+  register: echotask 
+- debug:
+    var: echotask  

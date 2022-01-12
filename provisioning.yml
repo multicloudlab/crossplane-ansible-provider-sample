@@ -1,0 +1,7 @@
+
+- name: provisioning
+  hosts: localhost
+  become: no
+  roles:
+    - role: echo
+  
