@@ -1,6 +1,4 @@
 ---
-- name: task echo with parameter
-  shell: echo ' echo with a a parameter =>`{{ parameter }}`'
-  register: echotask 
-- debug:
-    var: echotask  
+- name: ansibleplaybook-simple
+  debug:
+    msg: Your are running 'ansibleplaybook-simple' example
