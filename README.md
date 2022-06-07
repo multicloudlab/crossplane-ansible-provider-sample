@@ -1,6 +1,6 @@
 # crossplane-ansible-provider-sample
 
-Example of playbook 
+Crossplane ansible roles samples
 
 
 
