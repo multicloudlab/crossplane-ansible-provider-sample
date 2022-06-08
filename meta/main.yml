@@ -1,0 +1,3 @@
+---
+dependencies:
+  - google.cloud.gcp_compute_disk
