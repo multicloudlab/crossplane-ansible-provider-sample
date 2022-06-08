@@ -1,4 +1,4 @@
-- name: create a disk
+- name: remove a disk
   google.cloud.gcp_compute_disk:
     name: test_object
     size_gb: "{{ project.disk.size }}"
