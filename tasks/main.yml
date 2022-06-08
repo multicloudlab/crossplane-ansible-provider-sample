@@ -1,0 +1,6 @@
+---
+- include_tasks: setup-disk.yml
+  when: ansible_provider_meta.gcpdisk.state == 'present'
+
+- include_tasks: cleanup-disk.yml
+  when: ansible_provider_meta.gcpdisk.state == 'absent'
