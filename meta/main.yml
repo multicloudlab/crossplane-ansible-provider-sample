@@ -1,5 +1,5 @@
 ---
 dependencies:
   - name: google.cloud
-    source: https://galaxy.ansible.com
+    src: https://galaxy.ansible.com
     version: "1.0.2"
